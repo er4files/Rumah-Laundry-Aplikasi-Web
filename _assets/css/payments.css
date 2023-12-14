@@ -1,0 +1,208 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+   /* overflow: hidden; */
+   font-family: 'Open sans', sans-serif;
+   background: linear-gradient(to bottom right, #72bdf7, #467ce8);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+   margin: 0;
+}
+
+.card-payment{
+   border-radius: 20px;
+   width: 30%;
+   padding: 15px;
+   background-color: #fff;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.14);
+}
+
+.icon-header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40px 0 25px;
+}
+
+.txt{
+   text-align: center;
+   width: 80%;
+   margin: auto;
+}
+
+.txt h3{
+   font-size: 20px;
+   color: #424346;
+}
+
+.txt p{
+   margin-top: 10px;
+   font-size: 14px;
+   color: #7d7e82;
+}
+
+.card-payment form{
+   margin: 40px auto;
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+}
+
+.card-payment form input{
+   margin: 10px 0;
+   padding: 10px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #424346;
+   text-align: center;
+   font-family: 'Open sans', sans-serif;
+   border: 0;
+   outline: none;
+}
+
+.card-payment form input::placeholder{
+   color: #e0e0e0;
+}
+
+.card-payment form button{
+   padding: 15px;
+   border: 0;
+   background-color: #58ca50;
+   color: #fff;
+   font-size: 16px;
+   font-family: 'Open sans', sans-serif;
+   letter-spacing: 1.2px;
+   font-weight: 600;
+   text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 7px;
+   outline: none;
+   transition: all .4s ease-out;
+}
+
+.card-payment form button:hover{
+   background-color: #45ab3d;
+}
+
+@media (max-width:768px){
+   .card-payment{
+      width: 60%;
+   }
+}
+
+@media (max-width:550px){
+   .card-payment{
+      width: 70%;
+   }
+
+   .card-payment form input,
+   .card-payment form button{
+      font-size: 16px;
+   }
+}
+
+@media (max-width:375px){
+   .card-payment{
+      width: 80%;
+   }
+
+   .card-payment form, .txt{
+      width: 90%;
+   }
+
+   .txt h3{
+      font-size: 18px;
+      color: #424346;
+   }
+
+   .icon-header,
+   .card-payment form{
+      margin: 25px auto;
+   }
+}
+
+/* Pesan Alert */
+.alert{
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	transition: all .4s ease;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	min-height: 80px;
+	margin: 70px auto 0;
+	position: relative;
+	padding: 20px 15px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.box p{color: #4d4d4d;}
+.alert .box{animation: slide .8s;}
+
+.btn-alert{
+   border: none;
+   text-decoration: none;
+   display: inline-block;
+	margin-top: 15px;
+	padding: 8px 25px;
+	cursor: pointer;
+	outline: none;
+	border-radius: 4px;
+	text-transform: uppercase;
+	transition: all .4s ease;
+}
+
+.btn-success{
+   background-color: #58ca50;
+   color: #fff;
+}
+
+.btn-fail{
+   background-color: #f73e53;
+   color: #fff;
+}
+
+.close{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	height: 30px;
+	width: 30px;
+	background-color: #ffb723;
+	font-size: 24px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+@keyframes slide{
+	0%{
+		margin: 50px auto 0;
+	}
+
+	100%{
+		margin: 70px auto 0;
+	}
+}
