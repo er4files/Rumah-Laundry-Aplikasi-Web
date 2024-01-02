@@ -123,7 +123,7 @@
 	</div>
 
 	<div class="copyright">
-		<p>&copy; <span id="tahun"></span> All Rights Reserved.</p>
+		<p>&copy; Er4files <span id="tahun"></span> All Rights Reserved.</p>
 		<script>
 		// mengambil tanggal hari ini
 		var now = new Date();
