@@ -7,7 +7,7 @@
 <head>
 	<title>Rumah Laundry | Dashboard</title>
 	<link rel="stylesheet" href="<?=url('_assets/css/style.css')?>">
-	<link rel="shortcut icon" href="<?=url('_assets/img/logo/favicon.svg')?>" type="image/x-icon">
+	<link rel="shortcut icon" href="<?=url('_assets/img/logo/favicon.png')?>" type="image/x-icon">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
 		<nav>
 			<div class="logo">
 				<a href="<?=url()?>">
-					<img src="<?=url('_assets/img/logo/nav-logo.svg')?>" alt="Rumah Laundry Logo">
+					<img src="<?=url('_assets/img/logo/nav-logo.png')?>" alt="Rumah Laundry Logo">
 				</a>
 			</div>
 			<ul class="nav-menu">

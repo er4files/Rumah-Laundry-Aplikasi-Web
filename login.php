@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Rumah Laundry | Login</title>
 	<link rel="stylesheet" href="<?=url('_assets/css/login.css')?>">
-	<link rel="shortcut icon" href="<?= url('_assets/img/logo/favicon-svg.svg') ?>" type="image/x-icon">
+	<link rel="shortcut icon" href="<?= url('_assets/img/logo/favicon-svg.png') ?>" type="image/x-icon">
 </head>
 <body>
 
@@ -58,7 +58,7 @@
 		<div class="box-content">
 			<div class="col box__left">
 				<div class="logo">
-					<img src="<?= url('_assets/img/logo/logo.png') ?>" alt="">
+					<img src="<?= url('_assets/img/logo/logofix.png') ?>" alt="">
 				</div>
 				<div class="box__left-title">
 					<h4>Login untuk akunmu</h4>

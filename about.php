@@ -21,7 +21,7 @@
                   <div class="card-body">
                      <div class="card-flex-column">
                         <div class="about_header">
-                           <img src="<?=url('_assets/img/logo/logo.png')?>" alt="Logo rumah laundry" width="220">
+                           <img src="<?=url('_assets/img/logo/logofix.png')?>" alt="Logo rumah laundry" width="220">
                            <p>Jasa laundry tercepat dan termurah se-Indonesia.</p>
                         </div>
                         <div class="about_us">
