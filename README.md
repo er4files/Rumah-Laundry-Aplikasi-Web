@@ -1,17 +1,34 @@
-<h1> LANGKAH DAN CARA INSTALASI WEB RUMAH LANDRY </h1>
+# 🚀 Panduan Instalasi Web Rumah Laundry
 
-- setelah download. extract file zip yang sudah didownload. masukkan kedalam satu folder. dan beri nama rumah_laundry.
-- copy atau cut folder rumah_laundry ke xampp/htdocs/ kemudian paste.
+Langkah 1: Persiapan Awal
 
-- langkah instalasi
-1. Aktifkan web server bisa menggunakan LAMP, XAMPP, WAMPP, dll.
-	Lalu aktifkan apache dan mysql.
-2. Buka web browser, ketikkan localhost/phpmyadmin pada address bar.
-3. Buat sebuah database dengan nama laundry_app.
-4. Setelah database dibuat, klik database laundry_app.
-5. Import file sql dengan cara klik menu/tab impor pada bagian atas phpmyadmin.
-6. klik Choose file, lalu cari file laundry_app.sql yang sudah disediakan, terakhir klik tombol kirim/go (scroll ke bawah).
-7. Buka tab baru pada web browser kemudian ketikkan localhost/rumah_laundry/
-8. Terakhir, login terlebih dahulu isi username dan password:
-   username: admin
-   password: admin
+- 📥 Unduh file instalasi dari repositori ini di GitHub 
+   [er4files](https://github.com/er4files/Rumah-Laundry-Aplikasi-Web).
+- 📂 Ekstrak file zip yang telah diunduh ke dalam satu folder. 
+   Beri nama folder tersebut sebagai "rumah_laundry".
+- 📁 Pindahkan folder "rumah_laundry" ke dalam direktori xampp/htdocs/.
+
+Langkah 2: Aktivasi Server Web
+
+1. 🚀 Aktifkan server web menggunakan platform seperti LAMP, XAMPP, WAMPP, dsb.
+2. 💡 Nyalakan layanan Apache dan MySQL.
+
+Langkah 3: Pengaturan Database
+
+1. 🌐 Buka web browser dan ketikkan localhost/phpmyadmin pada address bar.
+2. 🛠️ Buat database baru dengan nama "laundry_app".
+3. 🔍 Pilih database "laundry_app" setelah dibuat.
+4. 📤 Impor file SQL dengan klik menu/tab "Import" di bagian atas phpMyAdmin.
+5. 📎 Klik "Choose file", cari file "laundry_app.sql", 
+   dan klik tombol "Kirim/Go" (scroll ke bawah).
+
+Langkah 4: Instalasi Aplikasi
+
+1. 🌐 Buka tab baru pada web browser dan ketikkan localhost/rumah_laundry/.
+2. 🔧 Ikuti petunjuk untuk mengisi informasi login.
+
+Informasi Login:
+- 👤 Username: admin
+- 🔐 Password: admin
+
+Selamat, Anda Telah Sukses Menginstal Aplikasi Rumah Laundry! 🎉
