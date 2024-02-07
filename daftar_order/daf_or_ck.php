@@ -13,7 +13,8 @@
                   <tr>
                      <th class="sticky">No</th>
                      <th class="sticky">No.Order</th>
-                     <th class="sticky">Tgl Order</th>
+                     <th class="sticky">Tgl Masuk</th>
+                     <th class="sticky">Tgl Ambil</th>
                      <th class="sticky">Nama Pelanggan</th>
                      <th class="sticky">Jenis Paket</th>
                      <th class="sticky">Waktu Kerja</th>
@@ -32,6 +33,7 @@
                            <td><?= $no_ck; ?></td>
                            <td><?= $ck['or_ck_number'] ?></td>
                            <td><?= $ck['tgl_masuk_ck'] ?></td>
+                           <td><?= $ck['tgl_keluar_ck'] ?></td>
                            <td><?= $ck['nama_pel_ck'] ?></td>
                            <td><?= $ck['jenis_paket_ck'] ?></td>
                            <td><?= $ck['wkt_krj_ck'] ?></td>

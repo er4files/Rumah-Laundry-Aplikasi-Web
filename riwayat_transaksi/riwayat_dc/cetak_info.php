@@ -18,7 +18,7 @@
          <div class="invoice-content">
             <div class="invoice-header">
                <div class="logo">
-                  <img src="<?=url('_assets/img/logo/logo.png')?>" width="145" alt="Logo rumah laundry">
+                  <img src="<?=url('_assets/img/logo/logofix.png')?>" width="145" alt="Logo rumah laundry">
                </div>
                <div class="invoice-no_order">
                   <span>Invoice number : <?=$data['or_number']?></span>

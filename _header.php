@@ -8,10 +8,12 @@
 	<title>Rumah Laundry | Dashboard</title>
 	<link rel="stylesheet" href="<?=url('_assets/css/style.css')?>">
 	<link rel="shortcut icon" href="<?=url('_assets/img/logo/favicon.png')?>" type="image/x-icon">
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
 </head>
 <body>
 
 	<header>
+		
 		<nav>
 			<div class="logo">
 				<a href="<?=url()?>">
@@ -29,6 +31,7 @@
 			</ul>
 		</nav>
 		<div id="nav-mini">
+			<a href="<?=url()?>" class="link-nav">Home</a>
 			<a href="<?=url('riwayat_transaksi/riwayat.php')?>" class="link-nav">Riwayat Transaksi</a>
 			<a href="<?=url('karyawan/karyawan.php')?>" class="link-nav">Manage Karyawan</a>
 			<a href="<?=url('paket/paket.php')?>" class="link-nav">Daftar Paket</a>

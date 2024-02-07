@@ -9,7 +9,7 @@
 				<div class="selamat-datang">
 					<div class="col-header">
 						<h2 class="judul-md">Paket Cuci Satuan</h2>
-               </div>
+              		 </div>
                
 					<div class="col-header txt-right">
 						<a href="<?=url('paket/pkt_cs/tambah.php')?>" class="btn-lg bg-primary">+ Tambah Paket</a>
@@ -53,7 +53,7 @@
 												<td><?= $cs['nama_cs'] ?></td>
                                     <td align="center"><?= $cs['waktu_kerja_cs'] ?></td>
                                     <td align="center"><?= $cs['kuantitas_cs'] ?></td>
-												<td><?= $cs['tarif_cs'] ?></td>
+												<td><?= "Rp ".number_format($cs['tarif_cs'])?></td>
 												<td align="center">
 													<a href="<?=url('paket/pkt_cs/edit.php')?>?id_cs=<?=$cs['id_cs']?>" class="btn btn-edit">Edit</a>
 													<a href="<?=url('paket/pkt_cs/hapus.php')?>?id_cs=<?=$cs['id_cs']?>" onclick="return confirm('Yakin akan menghapus?');"  class="btn btn-hapus">Hapus</a>
