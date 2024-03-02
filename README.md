@@ -3,13 +3,8 @@
 Ini adalah aplikasi web Rumah Laundry, sebuah platform yang dirancang untuk memudahkan pengguna dalam memesan jasa laundry secara online. Dengan antarmuka yang ramah pengguna, pengguna dapat dengan mudah menjadwalkan layanan laundry tanpa harus pergi ke tempat laundry secara fisik.
 
 ## Screenshot
-![Laundry](laundry.png)
 ![Laundry 1](laundry1.png)
 ![Laundry 2](laundry2.png)
-![Laundry 3](laundry3.png)
-![Laundry 4](laundry4.png)
-![Laundry 5](laundry5.png)
-![Laundry 6](laundry6.png)
 
 ## Teknologi yang Digunakan
 
